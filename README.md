@@ -17,9 +17,9 @@ python -m venv venv
 ```
 pip install -r requirements.txt
 ```
-- Установите и запустите миграции
+- Перейдите в папку управления проектом и запустите миграции
 ```
-python manage.py makemigrations
+cd menu
 python manage.py migrate
 ```
 - Создайте суперпользователя
@@ -32,7 +32,7 @@ python manage.py runserver
 ```
 - В админ-панели создайте меню и предметы, в index.html замените аргумент тега draw_menu на название Вашего меню
 - Доступные адреса:
-1) http://localhost/admin/ - администрирование;
-2) http://localhost/menu/ - главная страница;
+1) http://127.0.0.1:8000/admin/ - администрирование;
+2) http://127.0.0.1:8000/menu/ - главная страница;
 ### Автор: 
 [Михаил Касев](https://github.com/mihailkasev/)
